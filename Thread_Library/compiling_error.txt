@@ -1,0 +1,42 @@
+/Users/josesanmartin/Desktop/cs310/projects/compsci310-spring19-group94/p1t/test8.cc:26:10: error: reference to 'count' is ambiguous
+        cout << count << " thread copy starts" << endl;
+                ^
+/Users/josesanmartin/Desktop/cs310/projects/compsci310-spring19-group94/p1t/test8.cc:13:5: note: candidate found by name lookup is 'count'
+int count = 0;
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:307:1: note: candidate found by name lookup is 'std::__1::count'
+count(__bit_iterator<_Cp, _IsConst> __first, __bit_iterator<_Cp, _IsConst> __last, const _Tp& __value_)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:1244:1: note: candidate found by name lookup is 'std::__1::count'
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+/Users/josesanmartin/Desktop/cs310/projects/compsci310-spring19-group94/p1t/test8.cc:27:20: error: reference to 'count' is ambiguous
+        int local_count = count;
+                          ^
+/Users/josesanmartin/Desktop/cs310/projects/compsci310-spring19-group94/p1t/test8.cc:13:5: note: candidate found by name lookup is 'count'
+int count = 0;
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:307:1: note: candidate found by name lookup is 'std::__1::count'
+count(__bit_iterator<_Cp, _IsConst> __first, __bit_iterator<_Cp, _IsConst> __last, const _Tp& __value_)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:1244:1: note: candidate found by name lookup is 'std::__1::count'
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+/Users/josesanmartin/Desktop/cs310/projects/compsci310-spring19-group94/p1t/test8.cc:28:2: error: reference to 'count' is ambiguous
+        count += 1;
+        ^
+/Users/josesanmartin/Desktop/cs310/projects/compsci310-spring19-group94/p1t/test8.cc:13:5: note: candidate found by name lookup is 'count'
+int count = 0;
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:307:1: note: candidate found by name lookup is 'std::__1::count'
+count(__bit_iterator<_Cp, _IsConst> __first, __bit_iterator<_Cp, _IsConst> __last, const _Tp& __value_)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:1244:1: note: candidate found by name lookup is 'std::__1::count'
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+/Users/josesanmartin/Desktop/cs310/projects/compsci310-spring19-group94/p1t/test8.cc:29:16: error: expected '>'
+        if(count < 250) {
+                      ^
+/Users/josesanmartin/Desktop/cs310/projects/compsci310-spring19-group94/p1t/test8.cc:29:16: error: type name requires a specifier or qualifier
+/Users/josesanmartin/Desktop/cs310/projects/compsci310-spring19-group94/p1t/test8.cc:29:16: error: expected unqualified-id
+6 errors generated.
